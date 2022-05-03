@@ -46,10 +46,10 @@ BOARD_SUPPRESS_SECURE_ERASE := true
 RECOVERY_SDCARD_ON_DATA := true
 TW_NO_REBOOT_BOOTLOADER := true
 # Paths
-TARGET_RECOVERY_DEVICE_DIRS := $(PLATFORM_PATH)
-BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../$(PLATFORM_PATH)/recovery/recovery_keys.c
+TARGET_RECOVERY_DEVICE_DIRS := device/samsung/j3xnlte
+BOARD_CUSTOM_RECOVERY_KEYMAPPING := device/samsung/j3xnlte/recovery/recovery_keys.c
 BOARD_HAS_NO_SELECT_BUTTON := true
-TARGET_RECOVERY_FSTAB := $(PLATFORM_PATH)/recovery/recovery.fstab
+TARGET_RECOVERY_FSTAB := device/samsung/j3xnlte/recovery/recovery.fstab
 ################################################
 TW_HAS_DOWNLOAD_MODE := true
 TW_MAX_BRIGHTNESS := 255
